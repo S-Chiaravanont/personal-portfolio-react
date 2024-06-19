@@ -1,0 +1,61 @@
+{
+    "Experience": [{
+            "Title": "Software Engineer/Data Principal",
+            "Date": "12/23-07/24",
+            "Company": "Illumination Foundation",
+            "tag": [
+            {"name": "HTML", "color": "#e7ecfe"},
+            {"name": "CSS", "color": "#90d3a7"},
+            {"name": "JavaScript", "color": "#a799ec"}, 
+            {"name": "React", "color": "#d9f48c"}, 
+            {"name": "NodeJS", "color": "#fd9aac"}, 
+            {"name": "ExpressJS", "color": "#e186f5"}, 
+            {"name": "TypeScript", "color": "#a4e99e"}, 
+            {"name": "MySQL", "color": "#f1f2c6"}, 
+            {"name": "Git", "color": "#cd88b2"}],
+            "responsibility": [
+                "Launched company-wide internal web application.",
+                "On-going developing new modules.",
+                "Involved in both front end and back end development using React/Node/Express/MySQL",
+                "On-going transitioning current production codes to Typescript (learning)",
+                "Code reviews through GIT/Github version control",
+                "Learning/developing unit and integration test for our front end codes with Typescript (Jest.js)",
+                "Learning/developing REST API for our new EHR system with BigQuery Database API",
+                "Design and develop multiple database schemas",
+                "Handle and troubleshoot Linux/Ubuntu server and several services running on the server including docker containers, Cloudflare tunnel, and NGINX",
+                "Manage and keep our current database up to date"
+            ]
+        }, {
+            "Title": "Data Support Specialist",
+            "Date": "04/23-11/23",
+            "Company": "Illumination Foundation",
+            "tag": [
+            {"name": "Python", "color": "#c98db3"}, 
+            {"name": "Selenium", "color": "#fee4c4"}, 
+            {"name": "Linux", "color": "#81ffe8"}, 
+            {"name": "ETL", "color": "#bff8f8"}, 
+            {"name": "MySQL", "color": "#d2f19d"}],
+            "responsibility": [
+                "Created python pipeline scripts to migrate data to MySQL database",
+                "Wrote a python script that spot duplicate client accounts within dataset which help increase report accuracy",
+                "Created selenium scripts which help transferring data during transition to new EHR system",
+                "Help set up automation processes through Microsoft Automate with Microsoft Forms, Excel and Outlook"
+            ]
+        },{
+            "Title": "Design Engineer (Civil Engineer)",
+            "Date": "09/18-09/22",
+            "Company": "Peri Formwork Inc",
+            "tag": [
+                {"name": "AutoCAD", "color": "#97de88"}, 
+                {"name": "BlueBeam", "color": "#c7ed80"}
+            ],
+            "responsibility": [
+                "Led one of the largest projects, Los Angeles County Museum of Arts new building, for 9 months. Designed and drafted over 15 sets of drawings and helped develop custom steels that were cycled and reused and cut down cost for our client.",
+                "Designed, calculated and detailed over 40 formwork projects for concrete structures (walls, shoring, and scaffolding).",
+                "Created 150+ assembly drawings and bills of material.",
+                "Collaborated with internal (sales, assembly and logistic teams) and external (contractors, third-party Professional Engineers and City’s Engineers) to provide safe and efficient solutions within a set schedule.",
+                "Contributed to bidding phrase with sketches, calculations and bills of material that helped acquired contract for 10+ large scale projects."
+            ]
+        }
+    ]
+}

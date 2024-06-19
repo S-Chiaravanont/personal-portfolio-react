@@ -1,0 +1,31 @@
+{
+    "Projects": [
+        {
+            "Project": "MergeScript Express",
+            "id": "merge",
+            "Description": "",
+            "icons": [
+                {"name": "React", "url": "reactIconImg"}, 
+                {"name": "Typescript", "url": "typescriptIconImg"}
+            ],
+            "images": [""]
+        },
+        {
+            "Project": "Mileage Dashboard",
+            "id": "mileage",
+            "Description": "",
+            "icons": [
+                {"name": "React", "url": "reactIconImg"}, 
+                {"name": "Typescript", "url": "typescriptIconImg"}
+            ],
+            "images": [""]
+        },
+        {
+            "Project": "Backend Endpoint",
+            "id": "backend",
+            "Description": "",
+            "icons": [{"name": "", "url": ""}, {"name": "", "url": ""}],
+            "images": [""]
+        }
+    ]
+}
