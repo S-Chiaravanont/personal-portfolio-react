@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio-react/static/css/main.b54c0f78.css",
+    "main.js": "/personal-portfolio-react/static/js/main.eff5eebf.js",
+    "static/js/453.5ec38994.chunk.js": "/personal-portfolio-react/static/js/453.5ec38994.chunk.js",
+    "static/media/self-image.jpeg": "/personal-portfolio-react/static/media/self-image.bdd341ce2f41730fd624.jpeg",
+    "static/media/translator.gif": "/personal-portfolio-react/static/media/translator.f28297302fc891d943f0.gif",
+    "static/media/dashboard_vid.gif": "/personal-portfolio-react/static/media/dashboard_vid.69ee5f53d2040bacd9b8.gif",
+    "static/media/mergescript_vid.gif": "/personal-portfolio-react/static/media/mergescript_vid.c4bd34a69c040de38b3a.gif",
+    "static/media/coding.jpg": "/personal-portfolio-react/static/media/coding.8dae1db32dd1f4a8cf8e.jpg",
+    "static/media/translate.jpeg": "/personal-portfolio-react/static/media/translate.82bfc818414040b64c15.jpeg",
+    "static/media/pipeline.png": "/personal-portfolio-react/static/media/pipeline.7af111ff2e8cc9d8516f.png",
+    "static/media/dashboard-logo.jpg": "/personal-portfolio-react/static/media/dashboard-logo.c0aa42de739d8ab66eef.jpg",
+    "static/media/jstoexcel.jpeg": "/personal-portfolio-react/static/media/jstoexcel.77ecabc591a1057b1589.jpeg",
+    "index.html": "/personal-portfolio-react/index.html",
+    "main.b54c0f78.css.map": "/personal-portfolio-react/static/css/main.b54c0f78.css.map",
+    "main.eff5eebf.js.map": "/personal-portfolio-react/static/js/main.eff5eebf.js.map",
+    "453.5ec38994.chunk.js.map": "/personal-portfolio-react/static/js/453.5ec38994.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b54c0f78.css",
+    "static/js/main.eff5eebf.js"
+  ]
+}
