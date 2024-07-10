@@ -4,7 +4,6 @@ import ExperienceTimelineContainer from './experience/experienceTimelineContaine
 
 export default function Experience() {
     const experienceData = experienceDataImport.Experience as any[]
-    console.log(experienceData)
     return (
         <div className="experienceDiv">
             <div className="experienceHeader">

@@ -17,7 +17,7 @@ export default function Projects() {
         setModalStatus(e.currentTarget.id)
         setProjectIdIndex(listOfProjId ? listOfProjId.indexOf(e.currentTarget.id) : 0)
     }
-
+    
     return (
         <>
             <div className='projectDiv'>
@@ -26,20 +26,26 @@ export default function Projects() {
                 </div>
                 <label htmlFor="checkbox">
                     <div className="projectDiv_content" id='merge' onClick={handleProjOnClick}>
-                        <div></div>
+                        <div className='merge_proj_img'></div>
                         <h4>MergeScript Express</h4>
                     </div>
                 </label>
                 <label htmlFor="checkbox">
                     <div className="projectDiv_content" id='mileage' onClick={handleProjOnClick}>
-                        <div></div>
+                        <div className='dashboard_proj_img'></div>
                         <h4>Mileage Dashboard</h4>
                     </div>
                 </label>
                 <label htmlFor="checkbox">
-                    <div className="projectDiv_content" id='backend' onClick={handleProjOnClick}>
-                        <div></div>
-                        <h4>Something here...</h4>
+                    <div className="projectDiv_content" id='translator' onClick={handleProjOnClick}>
+                        <div className='translator_proj_img'></div>
+                        <h4>Translator Chrome Extension</h4>
+                    </div>
+                </label>
+                <label htmlFor="checkbox">
+                    <div className="projectDiv_content" id='pipeline' onClick={handleProjOnClick}>
+                        <div className='pipeline_proj_img'></div>
+                        <h4>In the work...</h4>
                     </div>
                 </label>
             </div>
@@ -60,9 +66,15 @@ export default function Projects() {
                         </label>
                     </div>
                     <div className="proj_modal_content_div">
-                        <div className="proj_img"></div>
-                        <h3 id="modal-title">{projectData.Projects[projectIdIndex].Project}</h3>
-                        <p>{projectData.Projects[projectIdIndex].Description}</p>
+                        <div className={`proj_img ${projectData.Projects[projectIdIndex].images}`}></div>
+                        <h3 id="modal-title">
+                            {projectData.Projects[projectIdIndex].Project}
+                        </h3>
+                        {modalStatus === 'pipeline' ? 
+                        projectData.Projects[projectIdIndex].Description.split('\n').map((des: string, index: number) => (<p style={{textAlign: 'start'}}>{des}</p> ))
+                        : 
+                        <p style={{textAlign: 'start'}}>{projectData.Projects[projectIdIndex].Description}</p>}
+
                         <div className="proj_icon_div">
                             {projectData.Projects[projectIdIndex].icons.map((icon: {url: string, name: string}) => {
                                 return (
@@ -73,6 +85,9 @@ export default function Projects() {
                                 )
                             })}
                         </div>
+                        <p>GitHub: <a target="_blank" href={projectData.Projects[projectIdIndex].github} >Repo</a></p>
+                        {projectData.Projects[projectIdIndex].liveLink ? 
+                        <p>Live Demo: <a target="_blank" href={projectData.Projects[projectIdIndex].liveLink}>Link</a></p> : <></>}
                     </div>
                 </label>
             </label>

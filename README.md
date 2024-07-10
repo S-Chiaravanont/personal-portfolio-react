@@ -1,6 +1,6 @@
-# personal-portfolio-react
+# Getting Started with Create React App
 
-New updated personal portfolio with React/TypeScript
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

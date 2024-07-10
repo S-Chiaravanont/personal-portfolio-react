@@ -14,6 +14,12 @@ export default function Footer() {
                     </div>
                 </a>
             </div>
+            <div className='individualSKillDiv'>
+                <a href="https://codesandbox.io/u/s-chiaravanont" target="_blank" rel="noopener noreferrer">
+                    <div className='codeSandBoxIconImg'>
+                    </div>
+                </a>
+            </div>
             <div className="iconLink">
                 <p>*All Icons are from <a target="_blank" href="https://icons8.com">Icons8</a></p>
             </div>
