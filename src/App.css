@@ -372,6 +372,23 @@ body .modal-active {
   cursor: pointer;
 }
 
+.zesty_proj_img {
+  background: url('./component/project/zesty.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+.rtsheet_proj_img {
+  background: url('./component/project/rtsheet.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+
 .merge_proj_img {
   background: url('./component/project/jstoexcel.jpeg');
   background-size: contain;
@@ -473,6 +490,24 @@ input:checked~.proj-modal-overlay .proj-modal {
   height: 100px;
   display: flex;
   justify-content: center;
+}
+
+.zesty_vid {
+  background: url('./component/project/zesty.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 700px;
+  height: 400px;
+  margin: auto;
+}
+
+.rtsheet_vid {
+  background: url('./component/project/rtsheet.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 700px;
+  height: 400px;
+  margin: auto;
 }
 
 .dashboard_vid {
@@ -631,6 +666,42 @@ input:checked~.proj-modal-overlay .proj-modal {
 
 .pythonIconImg {
   background-image: url('./component/icons/icons8-python-50.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.gitIconImg {
+  background-image: url('./component/icons/icons8-git-50.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.awsIconImg {
+  background-image: url('./component/icons/icons8-amazon-web-services-64.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.ubuntuIconImg {
+  background-image: url('./component/icons/icons8-ubuntu-48.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.vueIconImg {
+  background-image: url('./component/icons/icons8-vue-js-48.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
