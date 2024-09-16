@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import projectData from './project/projects.json'
 
 export default function Projects() {
@@ -24,6 +24,18 @@ export default function Projects() {
                 <div className='projectHeader'>
                     <h4>PROJECTS</h4>
                 </div>
+                <label htmlFor="checkbox">
+                    <div className="projectDiv_content" id='zesty' onClick={handleProjOnClick}>
+                        <div className='zesty_proj_img'></div>
+                        <h4>Zesty Pan</h4>
+                    </div>
+                </label>
+                <label htmlFor="checkbox">
+                    <div className="projectDiv_content" id='rtsheet' onClick={handleProjOnClick}>
+                        <div className='rtsheet_proj_img'></div>
+                        <h4>Real-time Spreadsheet</h4>
+                    </div>
+                </label>
                 <label htmlFor="checkbox">
                     <div className="projectDiv_content" id='merge' onClick={handleProjOnClick}>
                         <div className='merge_proj_img'></div>
@@ -71,7 +83,7 @@ export default function Projects() {
                             {projectData.Projects[projectIdIndex].Project}
                         </h3>
                         {modalStatus === 'pipeline' ? 
-                        projectData.Projects[projectIdIndex].Description.split('\n').map((des: string, index: number) => (<p style={{textAlign: 'start'}}>{des}</p> ))
+                        projectData.Projects[projectIdIndex].Description.split('\n').map((des: string) => (<p style={{textAlign: 'start'}}>{des}</p> ))
                         : 
                         <p style={{textAlign: 'start'}}>{projectData.Projects[projectIdIndex].Description}</p>}
 
@@ -85,7 +97,7 @@ export default function Projects() {
                                 )
                             })}
                         </div>
-                        <p>GitHub: <a target="_blank" href={projectData.Projects[projectIdIndex].github} >Repo</a></p>
+                        {projectData.Projects[projectIdIndex].github ? <p>GitHub: <a target="_blank" href={projectData.Projects[projectIdIndex].github} >Repo</a></p> : <></>}
                         {projectData.Projects[projectIdIndex].liveLink ? 
                         <p>Live Demo: <a target="_blank" href={projectData.Projects[projectIdIndex].liveLink}>Link</a></p> : <></>}
                     </div>

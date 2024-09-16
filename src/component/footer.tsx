@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Footer() {
     return (
         <div className="footerDiv">
@@ -21,7 +19,7 @@ export default function Footer() {
                 </a>
             </div>
             <div className="iconLink">
-                <p>*All Icons are from <a target="_blank" href="https://icons8.com">Icons8</a></p>
+                <p>*All Icons are from <a target="_blank" rel="noopener noreferrer" href="https://icons8.com">Icons8</a></p>
             </div>
         </div>
     )

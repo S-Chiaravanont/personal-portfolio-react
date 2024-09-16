@@ -1,4 +1,3 @@
-import React from 'react'
 import Computer3d from './computer'
 
 export default function Header() {

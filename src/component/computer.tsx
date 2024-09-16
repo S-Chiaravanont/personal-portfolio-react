@@ -1,7 +1,7 @@
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useLoader } from "@react-three/fiber";
-import { Environment, OrbitControls } from "@react-three/drei";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import { Environment } from "@react-three/drei";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { Suspense, useRef } from "react";
 import { Html, useProgress } from '@react-three/drei'
 
@@ -12,7 +12,7 @@ function Loader() {
 
 const Model = () => {
     const myModel = useRef<any>(null!);
-    const gltf = useLoader(GLTFLoader, "./scene.gltf");
+    const gltf = useLoader(GLTFLoader, "/scene.gltf");
 
     useFrame(({ clock }) => {
         const a = clock.getElapsedTime();
@@ -20,9 +20,7 @@ const Model = () => {
     })
 
     return (
-        <>
-            <primitive ref={myModel} object={gltf.scene} scale={3} />
-        </>
+        <primitive ref={myModel} object={gltf.scene} scale={3} />
     );
 };
 
@@ -33,7 +31,6 @@ export default function Computer3d() {
         >
             <Suspense fallback={<Loader />}>
                 <Model />
-                {/* <OrbitControls /> */}
                 <ambientLight intensity={0.5} />
                 <Environment preset="sunset" />
             </Suspense>

@@ -1,6 +1,62 @@
 {
     "Projects": [
         {
+            "Project": "Zesty Pan",
+            "id": "zesty",
+            "Description": "Zesty Pan is a website where food lovers can explore, learn and rate dishes around the globe. Through our platform, we aim to celebrate the diversity of cuisines and encourage everyone to explore, rate, and appreciate the unique flavors that the world has to offer.",
+            "icons": [
+                {
+                    "name": "Vue 3",
+                    "url": "vueIconImg"
+                },
+                {
+                    "name": "NodeJS",
+                    "url": "nodejsIconImg"
+                },
+                {
+                    "name": "ExpressJS",
+                    "url": "expressjsIconImg"
+                },
+                {
+                    "name": "MySQL",
+                    "url": "mysqlIconImg"
+                }
+            ],
+            "images": [
+                "zesty_vid"
+            ],
+            "github": "",
+            "liveLink": "https://zestypan.com"
+        },
+        {
+            "Project": "Real time spreadsheet",
+            "id": "rtsheet",
+            "Description": "A real time spreadsheet with directory navigation similar to Google Drive format. The app utilize websocket to create individual 'sheet/room' connection so that there are no cross connection between sheets and only users that are within the same sheet will get the update. The app also connects to MySQL database so that all data will be persisted as well as table meta data like column/row and its position. Really cool thing about this table is that it is built on top of tanstack table which is feature rich including filter, sort, CRUD operation to column, row and cell, drag and drop column/row, and pagination.",
+            "icons": [
+                {
+                    "name": "React",
+                    "url": "reactIconImg"
+                },
+                {
+                    "name": "NodeJS",
+                    "url": "nodejsIconImg"
+                },
+                {
+                    "name": "ExpressJS",
+                    "url": "expressjsIconImg"
+                },
+                {
+                    "name": "MySQL",
+                    "url": "mysqlIconImg"
+                }
+            ],
+            "images": [
+                "rtsheet_vid"
+            ],
+            "github": "https://github.com/S-Chiaravanont/real-time-spreadsheet",
+            "liveLink": "http://sheet.siriphumchiaravanont.com"
+        },
+        {
             "Project": "MergeScript Express",
             "id": "merge",
             "Description": "MergeScript Express is designed to streamline the process of generating JavaScript code compatible with the SheetJS package, focusing particularly on merging cells functionality. With our intuitive interface, users can effortlessly create the necessary code snippets tailored to their merging requirements, saving time and ensuring compatibility with SheetJS. MergeScript Express simplifies the task of incorporating merging cells functionality into your projects.",
@@ -18,7 +74,7 @@
                 "mergescript_vid"
             ],
             "github": "https://github.com/S-Chiaravanont/XLSX_Formatter_React",
-            "liveLink": "https://s-chiaravanont.github.io/XLSX_Formatter_React/"
+            "liveLink": "http://xlsx.siriphumchiaravanont.com"
         },
         {
             "Project": "Mileage Dashboard",
@@ -38,7 +94,7 @@
                 "dashboard_vid"
             ],
             "github": "https://github.com/S-Chiaravanont/dashboard_mileage",
-            "liveLink": "https://S-Chiaravanont.github.io/dashboard_mileage/#/mileage"
+            "liveLink": "http://dashboard.siriphumchiaravanont.com/#/mileage"
         },
         {
             "Project": "Translator Text Chrome Extension",
@@ -63,7 +119,7 @@
         {
             "Project": "In the pipeline...",
             "id": "pipeline",
-            "Description": "> RESTful API - A headless RESTful application focusing on FIFA World Cup 1930-2022 Data and Statistics \n > Web Application (educational site for basic formwork engineering) - Discover key concepts and techniques through interactive features where users can manipulate virtual formwork configurations, gaining hands-on experience in formwork design and construction methods. \n > A product landing page focusing on ThreeJS library. Using react-three-fiber and react-three-drei libraries to bring product to life with custom animation and camera control.",
+            "Description": "> Improving user experience and continue adding more dishes for Zesty Pan. Planning to add mini games to make the website more interactive. \n > Web Application (educational site for basic formwork engineering) - Discover key concepts and techniques through interactive features where users can manipulate virtual formwork configurations, gaining hands-on experience in formwork design and construction methods. \n > A product landing page focusing on ThreeJS library. Using react-three-fiber and react-three-drei libraries to bring product to life with custom animation and camera control.",
             "icons": [
                 {
                     "name": "NodeJS",
@@ -82,8 +138,8 @@
                     "url": "typescriptIconImg"
                 },
                 {
-                    "name": "CSS3",
-                    "url": "css3IconImg"
+                    "name": "Vue 3",
+                    "url": "vueIconImg"
                 }
             ],
             "images": [

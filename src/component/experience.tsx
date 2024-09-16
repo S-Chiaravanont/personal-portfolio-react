@@ -1,4 +1,3 @@
-import React from 'react'
 import experienceDataImport from './experience/experience.json'
 import ExperienceTimelineContainer from './experience/experienceTimelineContainer'
 

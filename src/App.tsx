@@ -1,4 +1,3 @@
-import React from 'react'
 import './App.css';
 import Header from './component/header';
 import Experience from './component/experience';

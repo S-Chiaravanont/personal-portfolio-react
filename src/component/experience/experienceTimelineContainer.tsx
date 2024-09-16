@@ -1,4 +1,3 @@
-import React from 'react';
 import ExperienceTag from './experienceTag'
 
 interface Itag {
